@@ -39,3 +39,13 @@ git config --list     //Check info about user
 git status 
 
 eval "$(ssh-agent -s)"   //To check agent pid
+
+
+git remote set-url origin git@github.com:bhauiprogrammer/web-server.git
+
+
+git push origin master
+
+heroku app name -> web-server-weather-test
+
+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
