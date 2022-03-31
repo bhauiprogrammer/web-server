@@ -37,8 +37,7 @@ app.get('/weather', async(req, res) => {
         })
     }
 const data =await geocode.funOperation(req.query.address, res);
-console.log(data)
-
+// console.log(data)
 res.send(data)
 
 })

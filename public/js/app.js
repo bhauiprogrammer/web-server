@@ -22,12 +22,12 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 // messageOne.textContent = data.location
                 // messageTwo.textContent = data.forecast
-                console.log(data)
-                messageOne.textContent='City   '+data.location.name
-                messageTwo.textContent ='Temperature   '+ data.current.temperature +'  ℃';
+                // console.log(data)
+                messageOne.textContent='City :   '+data.location.name
+                messageTwo.textContent ='Temperature  :  '+ data.current.temperature +'  ℃';
                 const path = data.current.weather_icons[0]
                 messageFour.setAttribute('src',path)
-                messageThree.textContent ='Weather  '+data.current.weather_descriptions[0]
+                messageThree.textContent ='Weather : '+data.current.weather_descriptions[0]
 
             }
         })
